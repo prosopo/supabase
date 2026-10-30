@@ -1,6 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: 'github-actions'
+    open-pull-requests-limit: 0  # version updates off; security updates are unaffected
     directory: '/'
     schedule:
       interval: 'weekly'
